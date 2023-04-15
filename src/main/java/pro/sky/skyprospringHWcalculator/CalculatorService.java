@@ -1,6 +1,6 @@
 package pro.sky.skyprospringHWcalculator;
 
-public interface CalculatorService { // надеюсь все верно)
+public interface CalculatorService { // надеюсь все верно )
     String Welcome();
     String CalculatorPlus();
     String plus(int num1, int num2);

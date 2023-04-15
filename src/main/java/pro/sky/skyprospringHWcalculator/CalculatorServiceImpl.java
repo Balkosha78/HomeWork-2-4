@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class CalculatorServiceImpl implements CalculatorService {
     public String Welcome() {
         return "<h1> Добро пожаловать </h1>";
-    } //? нужна ли эта запись?
+    } // ? нужна ли эта запись?
 
     public String CalculatorPlus() {
         return "<h1> Добро пожаловать в калькулятор</h1>";

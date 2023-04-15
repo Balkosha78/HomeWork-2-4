@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class CalculatorController {  // надеюсь все верно)
+public class CalculatorController {   // надеюсь все верно)
     private final CalculatorService calculatorService;
     public CalculatorController(CalculatorService calculatorService){
         this.calculatorService = calculatorService;
