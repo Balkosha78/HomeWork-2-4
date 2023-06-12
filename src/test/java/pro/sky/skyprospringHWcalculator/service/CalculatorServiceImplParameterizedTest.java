@@ -8,7 +8,7 @@ import org.junit.jupiter.params.provider.MethodSource;
 
 import java.util.stream.Stream;
 
-public class CalculatorServiceImplParameterizedTest {          //2-13
+public class CalculatorServiceImplParameterizedTest {
     private final CalculatorService calculatorService = new CalculatorServiceImpl();
     private static Stream<Arguments> argumentProviderForCalculator(){
         return Stream.of(

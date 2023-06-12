@@ -3,7 +3,7 @@ package pro.sky.skyprospringHWcalculator.service;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class CalculatorServiceImplTest {          //2-13
+public class CalculatorServiceImplTest {
     private final CalculatorService calculatorService = new CalculatorServiceImpl();
     @Test
     public void shouldCorrectlyCalculateSum(){

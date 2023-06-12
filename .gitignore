@@ -34,3 +34,4 @@ build/
 /.mvn/
 /src/
 /src/test/
+/src/main/
